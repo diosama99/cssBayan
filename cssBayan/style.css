@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0; 
+    padding: 0;
+    width: 100%;
+  }
+
+/* .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+} */
+
+
+/* img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  visibility: hidden;
+} */
+
+img {
+    display: none;
+}
+
+.div_img:hover img{ 
+    display: block;
+ }
